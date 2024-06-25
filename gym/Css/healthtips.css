@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/Img/boxing-555735_1280.jpg);
+    color: white;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    display: block;
+    width: fit-content;
+    padding: 0 25px;
+    margin: 28px auto;
+    font-size: 50px;
+}
+
+h2 {
+    border: 2px solid white;
+    width: fit-content;
+    padding: 0 0;
+    margin: 0 auto;
+}
+
+.container {
+    font-size: 20px;
+    text-shadow: 0 0 2px black;
+    color: palevioletred;
+    width: 50%;
+    padding: 40px 5px;
+    margin: 0px auto;
+    cursor: pointer;
+}
+
+.container strong{
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: white;
+    padding: 0px 5px;
+}
+
+#line1 {
+    /* border: 2px solid green; */
+    /* background-color: cyan; */
+    padding: 10px 2px;
+    margin: 15px 5px;
+}
+
+#line2 {
+    /* /* border: 2px solid blue; */
+    padding: 10px 2px;
+    margin: 15px 5px;
+}
+
+#line3 {
+    /* /* border: 2px solid pink; */
+    padding: 10px 2px;
+    margin: 15px 5px;
+}
+
+#line4 {
+    /* /* border: 2px solid khaki; */
+    padding: 10px 2px;
+    margin: 15px 5px;
+}
+
+#line5 {
+    /* /* border: 2px solid rebeccapurple; */
+    padding: 10px 2px;
+    margin: 15px 5px;
+}
+
+#line6 {
+    /* border: 2px solid darkred; */
+    padding: 10px 2px;
+    margin: 15px 5px;
+}
+
+#line7 {
+    /* border: 2px solid burlywood; */
+    padding: 10px 2px;
+    margin: 15px 5px;
+}
+
+#line8 {
+    /* border: 2px solid yellow; */
+    padding: 10px 2px;
+    margin: 15px 5px;
+}
+
+#line9 {
+    /* border: 2px solid darkgreen; */
+    padding: 10px 2px;
+    margin: 15px 5px;
+}
+
+#line10 {
+    /* border: 2px solid darkmagenta; */
+    padding: 10px 2px;
+    margin: 15px 5px;
+}
+
+#line11 {
+    /* border: 2px solid darkcyan; */
+    padding: 10px 2px;
+    margin: 15px 5px;
+}
+
+p {
+    border: 5px solid red;
+    border-radius: 40px 20px;
+    text-align: center;
+    width: 40%;
+    padding: 10px 50px;
+    margin: 5px auto;
+}

@@ -1,0 +1,178 @@
+/* css reset lagu karte hain, to har element ek 
+jaisa dikhega, bhale hi vah kisi bhi browser ya device per dekha ja raha ho. 
+*/
+/* css reset ka istemal kuchh samanya samasyaon ko hal karne ke liye kiya ja sakta hai, jaise:
+
+alag-alag browser mein element ka alag-alag dikhna
+alag-alag device mein element ka alag-alag dikhna
+custom font ka sahi tarike se pradarshit n hona
+element ka sahi tarike se layout n hona */
+body {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    background: url(/Img/bg.jpg.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Protest Strike', sans-serif;
+}
+
+.left {
+    /* border: 2px solid orange; */
+    display: inline-block;
+    position: absolute;
+    left: 1px;
+    top: 5px;
+    width: 10%;
+    padding: 4px 3px;
+    margin: 8px 10px;
+    cursor: pointer;
+}
+
+/* Dhruv Fitnes Club pr link add kri h jisse jb koi name pr click krega tho vo home page pr aa jayga
+jarrori nhi h ye krna */
+.left a {
+    text-decoration: none;
+    color: white;
+}
+
+.left a:hover {
+    color: green;
+}
+
+.left img {
+    width: 50px;
+    filter: invert();
+    /* ye invert function kisi b photo ko black aur white kr skta hai
+    jese agr koi img black h to use white kr dega aur black h tho white kr dega*/
+    padding: 0px 42px 0px 35px;
+}
+
+.left {
+    text-align: center;
+    width: fit-content;
+    margin: 1px auto;
+    position: fixed;
+}
+
+.mid {
+    /* border: 2px solid red; */
+    background-color: #333;
+    display: block;
+    width: 60%;
+    padding: 5px 25px;
+    margin: 15px auto;
+    /*positop:fixed se element ek jga tika rheta hai scroll krne pr b vo vhi rheta hai*/
+    position: fixed;
+    top: 0px;
+    right: 200px;
+    transition: all;
+}
+
+.right {
+    /* border: 2px solid green; */
+    display: inline-block;
+    position: fixed;
+    right: 1px;
+    top: 540px;
+    width: 10%;
+    padding: 4px 3px;
+    margin: 8px 10px;
+}
+
+.btn {
+    padding: 5px 8px;
+    margin: 8px 2px;
+    border-radius: 10px;
+    border: 0px solid #3a2c2c;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'Protest Strike', sans-serif;
+}
+
+.btn:hover {
+    background-color: #a13939;
+}
+
+/* display:inline-block se element center mai aa jata hai */
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 15px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    /*text k niche jb underline hoti h tho use iski mdad se hataya jaya hai*/
+    padding: 12px 35px;
+}
+
+.navbar a:hover {
+    color: burlywood;
+    text-decoration: underline;
+    /*jese m apma moue home etc khi pr b rkhunga tho vha under line show hoygi*/
+}
+
+.border {
+    /* border: 2px solid darkmagenta; */
+    display: block;
+    width: 35%;
+    border-radius: 28px;
+    padding: 40px 61px;
+    margin: 68px auto;
+
+}
+
+.border h1 {
+    text-align: center;
+}
+
+.form input {
+    display: block;
+    border: 2px solid #817e4c;
+    border-radius: 50px;
+    width: 70%;
+    text-align: center;
+    padding: 5px 28px;
+    margin: 5px auto;
+    font-family: 'Protest Strike', sans-serif;
+    font-size: large;
+}
+
+.border button {
+    display: block;
+    border-radius: 40px;
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+footer {
+    display: block;
+    position: relative;
+    top: 110px;
+    border: 2px solid white;
+    width: 50%;
+    padding: 4px 4px;
+    margin: 180px auto;
+    text-align: center;
+    cursor: pointer;
+}
+/* footer mai mene link add kri hai jisse jb koi footer pr click krega tho vo home page pr aa jayga
+jarrori nhi h ye krna */
+footer a {
+    text-decoration: none;
+    color: orangered;
+}
+
+footer a:hover {
+    color: green;
+}

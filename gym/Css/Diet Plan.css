@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-image: url(/Img/background-3909535_1280.jpg);
+    color: black;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    background-color: burlywood;
+    color: black;
+    border: 2px solid brown;
+    border-radius: 50px 40px;
+    width: fit-content;
+    padding: 4px 59px;
+    margin: 102px 1px;
+    font-size: 20px;
+    /* display: block;
+    position: fixed;
+    top: 0px;
+    right: 550px; */
+}
+
+h3 {
+    text-align: center;
+    background-color: seagreen;
+    color: whitesmoke;
+    border: 2px solid black;
+    width: fit-content;
+    padding: 4px 59px;
+    margin: 40px auto;
+
+}
+
+#strong{
+    text-align: center;
+    background-color: seagreen;
+    color: whitesmoke;
+    border: 2px solid black;
+    width: fit-content;
+    padding: 4px 55px;
+    margin: 25px auto;
+
+}
+
+.paragraph {
+    text-shadow: 0 0 1px #ff1641;
+    font-size: 20px;
+}
+
+div p{
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 50px 90px;
+    font-size: 20px;
+    width: 75%;
+    padding: 8px 45px;
+    margin: 50px auto;
+}
+
+.mid {
+    /* border: 2px solid white;
+    background-color: #4878a3; */
+    /* color: black; */
+    padding: 2px 2px;
+    margin: 40px auto;
+    position: bottom;
+    top: -13px;
+    left: 620px;
+    /* right: 200px; */
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 15px;
+    font-size: 20px;
+}
+
+.navbar li a {
+    background-color: #50d7bb;
+    border: 2px solid black;
+    border-radius: 20px 59px;
+    color: black;
+    text-decoration: none;
+    /*text k niche jb underline hoti h tho use iski mdad se hataya jaya hai*/
+    padding: 12px 35px;
+}
+
+.navbar a:hover{
+    background-color: rgb(110, 110, 226);
+    color: wheat
+}
